@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <title>TODO supply a title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="../CSS/style.css" />
+        <script src="../JS/js.js" type="text/javascript"></script>
+
+    </head>
+    <body>
+        <div id="dregpers">
+            
+          <h1>Registro de una personas</h1>
+        
+            <form name="fregpersona"  action="../Controlador/Control.php" method="POST" onsubmit="return validacion()">
+                <table>
+                    <tr> <td> Nombre:</td> <td><input id="nombre" type="text" name="nombre"/></td> </tr>
+                    <tr> <td>Apellido: </td> <td><input id="apellido" type="text" name="apellido"  /> </td> </tr>
+                    <tr> <td>CI: </td> <td><input type="text" name="ci" id="ci"/>  </td> </tr>
+                    <tr> <td>Telefono: </td> <td><input id="telf" type="text" name="telf" /> </td> </tr>
+                    <tr> <td>Edad: </td> <td><input id="edad" type="text" name="edad" /> </td> </tr>
+                    <tr> <td></td> <td><input type="submit" value="Aceptar"/> </td> </tr>
+                </table>  
+            </form>
+          
+           <a href="./index.html"> Inicio</a> 
+        </div>
+    </body>
+</html>
